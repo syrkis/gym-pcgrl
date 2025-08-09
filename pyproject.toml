@@ -26,7 +26,7 @@ where = ["."]
 include = ["pcgym*"]
 
 [tool.setuptools.package-data]
-pcgymr= ["**/*.png"]
+pcgym= ["**/*.png"]
 
 [tool.uv]
 dev-dependencies = []
