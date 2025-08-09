@@ -1,14 +1,14 @@
 import os
 from PIL import Image
 import numpy as np
-from pcgymrl.envs.probs.problem import Problem
-from pcgymrl.envs.helper import (
+from pcgym.envs.probs.problem import Problem
+from pcgym.envs.helper import (
     get_range_reward,
     get_tile_locations,
     calc_certain_tile,
     calc_num_regions,
 )
-from pcgymrl.envs.probs.sokoban.engine import State, BFSAgent, AStarAgent
+from pcgym.envs.probs.sokoban.engine import State, BFSAgent, AStarAgent
 
 """
 Generate a fully connected Sokoban(https://en.wikipedia.org/wiki/Sokoban) level that can be solved

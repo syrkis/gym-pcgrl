@@ -1,8 +1,8 @@
 from PIL import Image
 import os
 import numpy as np
-from pcgymrl.envs.probs.problem import Problem
-from pcgymrl.envs.helper import (
+from pcgym.envs.probs.problem import Problem
+from pcgym.envs.helper import (
     get_range_reward,
     get_tile_locations,
     calc_certain_tile,
@@ -10,7 +10,7 @@ from pcgymrl.envs.helper import (
     get_type_grouping,
     get_changes,
 )
-from pcgymrl.envs.probs.smb.engine import State, BFSAgent, AStarAgent
+from pcgym.envs.probs.smb.engine import State, BFSAgent, AStarAgent
 
 
 class SMBProblem(Problem):

@@ -1,8 +1,8 @@
 import os
 import numpy as np
 from PIL import Image
-from pcgymrl.envs.probs.problem import Problem
-from pcgymrl.envs.helper import (
+from pcgym.envs.probs.problem import Problem
+from pcgym.envs.helper import (
     get_range_reward,
     get_tile_locations,
     calc_num_regions,

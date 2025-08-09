@@ -1,6 +1,6 @@
-from pcgymrl.envs.probs import PROBLEMS
-from pcgymrl.envs.reps import REPRESENTATIONS
-from pcgymrl.envs.helper import get_int_prob, get_string_map
+from pcgym.envs.probs import PROBLEMS
+from pcgym.envs.reps import REPRESENTATIONS
+from pcgym.envs.helper import get_int_prob, get_string_map
 import numpy as np
 import gymnasium as gym
 from gymnasium import spaces

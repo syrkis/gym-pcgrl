@@ -1,4 +1,4 @@
-from pcgymrl.envs.reps.narrow_rep import NarrowRepresentation
+from pcgym.envs.reps.narrow_rep import NarrowRepresentation
 from PIL import Image
 from gymnasium import spaces
 import numpy as np

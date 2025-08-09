@@ -1,4 +1,4 @@
-from pcgymrl.envs.reps.turtle_rep import TurtleRepresentation
+from pcgym.envs.reps.turtle_rep import TurtleRepresentation
 from PIL import Image
 from gymnasium import spaces
 import numpy as np

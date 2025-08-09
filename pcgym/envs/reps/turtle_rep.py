@@ -1,4 +1,4 @@
-from pcgymrl.envs.reps.representation import Representation
+from pcgym.envs.reps.representation import Representation
 from PIL import Image
 from gymnasium import spaces
 import numpy as np

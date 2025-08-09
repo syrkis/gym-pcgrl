@@ -1,5 +1,5 @@
 from gymnasium.utils import seeding
-from pcgymrl.envs.helper import gen_random_map
+from pcgym.envs.helper import gen_random_map
 
 """
 The base class of all the representations

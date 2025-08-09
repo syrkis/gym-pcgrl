@@ -1,8 +1,8 @@
-import pcgymrl
+import pcgym
 
 
 def main():
-    env = pcgymrl.make("smb-turtle-v0", render_mode="rgb_array")
+    env = pcgym.make("smb-turtle-v0", render_mode="rgb_array")
     obs = env.reset()
     for t in range(1000):
         action = env.action_space.sample()

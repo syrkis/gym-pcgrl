@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pcgymrl"
+name = "pcgym"
 version = "0.4.0"
 description = "A package for \"Procedural Content Generation via Reinforcement Learning\" OpenAI Gym interface."
 authors = [
@@ -23,10 +23,10 @@ Homepage = "https://github.com/amidos2006/gym-pcgrl"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["pcgymrl*"]
+include = ["pcgym*"]
 
 [tool.setuptools.package-data]
-pcgymrl = ["**/*.png"]
+pcgymr= ["**/*.png"]
 
 [tool.uv]
 dev-dependencies = []
