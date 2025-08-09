@@ -21,8 +21,9 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/amidos2006/gym-pcgrl"
 
-[tool.setuptools]
-packages = ["pcgymrl"]
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pcgymrl*"]
 
 [tool.setuptools.package-data]
 pcgymrl = ["**/*.png"]
