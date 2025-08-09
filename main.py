@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 def main():
-    env = gym.make("smb-turtle-v0", render_mode="rgb_array")
+    env = gym.make("zelda-turtle-v0", render_mode="rgb_array")
     obs = env.reset()
     for t in range(1000):
         action = env.action_space.sample()
