@@ -25,7 +25,7 @@ Homepage = "https://github.com/amidos2006/gym-pcgrl"
 packages = ["pcgymrl"]
 
 [tool.setuptools.package-data]
-gym_pcgrl = ["**/*.png"]
+pcgymrl = ["**/*.png"]
 
 [tool.uv]
 dev-dependencies = []
