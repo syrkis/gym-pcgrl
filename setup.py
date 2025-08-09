@@ -12,6 +12,7 @@ setup(name='gym_pcgrl',
       long_description=long_description,
       long_description_content_type="text/markdown",
       url="https://github.com/amidos2006/gym-pcgrl",
+      package_data={"gym_pcgrl": ["**/*.png"]},
       classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
