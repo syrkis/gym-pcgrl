@@ -1,15 +1,13 @@
-import gymnasium as gym
-from gymnasium import envs
 import pcgymrl
-import matplotlib.pyplot as plt
 
 
 def main():
-    env = gym.make("zelda-turtle-v0", render_mode="rgb_array")
+    env = pcgymrl.make("smb-turtle-v0", render_mode="rgb_array")
     obs = env.reset()
     for t in range(1000):
         action = env.action_space.sample()
         obs, reward, terminated, truncated, info = env.step(action)
+        print(reward)
         if terminated | truncated:
             print("Episode finished after {} timesteps".format(t + 1))
             break
